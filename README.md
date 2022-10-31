@@ -1,5 +1,3 @@
-debian-mini
-=======
 
 # What is Debian Mini
 A minimalist Debian-based image built specifically to be used as a base image for containers.
