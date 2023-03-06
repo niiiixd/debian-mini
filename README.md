@@ -5,19 +5,19 @@ A minimalist Debian-based image built specifically to be used as a base image fo
 # Use Debian Mini
 You can use the image directly.
 ```
-$ docker run --rm -it niiiix/debian-mini:latest
+$ docker run --rm -it niiiixd/debian-mini:latest
 ```
 
-There are [tags](https://hub.docker.com/r/niiiix/debian-mini/tags/) for the different Debian releases.
+There are [tags](https://hub.docker.com/r/niiiixd/debian-mini/tags/) for the different Debian releases.
 ```
-$ docker run --rm -it niiiix/debian-mini:bullseye
+$ docker run --rm -it niiiixd/debian-mini:bullseye
 ```
 
 The images are built daily and have the security release enabled, so will contain any security updates released more than 24 hours ago.
 
 You can also use the images as a base for your own `Dockerfile`:
 ```
-FROM niiiix/debian-mini:bullseye
+FROM niiiixd/debian-mini:bullseye
 ```
 
 # Why use Debian Mini
